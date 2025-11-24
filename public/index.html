@@ -1,3 +1,4 @@
+<html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,25 +7,36 @@
 </head>
 <body>
 
-  <h1>Add Employee</h1>
-  <input id="name" placeholder="Name">  
-  <input id="dept" placeholder="Department">
-  <input id="age" type="number" placeholder="Age">
-  <input id="salary" type="number" placeholder="Salary">
-  <button onclick="addEmployee()">Add</button>
+  <div class="container">
+    <h1>Employees Control Panel</h1>
 
-  <hr>
+    <section>
+      <h2>Add Employee</h2>
+      <input id="name" placeholder="Name">
+      <input id="dept" placeholder="Department">
+      <input id="age" type="number" placeholder="Age">
+      <input id="salary" type="number" placeholder="Salary">
+      <button onclick="addEmployee()">Add</button>
+    </section>
 
-  <h1>Delete Employees Over Age</h1>
-  <input id="delAge" type="number" placeholder="Enter age">
-  <button onclick="deleteEmp()">Delete</button>
+    <hr>
 
-  <hr>
+    <section>
+      <h2>Delete Employees Over Age</h2>
+      <input id="delAge" type="number" placeholder="Enter max age">
+      <button onclick="deleteEmp()">Delete</button>
+    </section>
 
-  <h1>Update Department Name</h1>
-  <input id="oldDept" placeholder="Old Department">
-  <input id="newDept" placeholder="New Department">
-  <button onclick="updateDept()">Update</button>
+    <hr>
+
+    <section>
+      <h2>Update Department</h2>
+      <input id="oldDept" placeholder="Old Department">
+      <input id="newDept" placeholder="New Department">
+      <button onclick="updateDept()">Update</button>
+    </section>
+
+  </div>
 
   <script src="script.js"></script>
 </body>
