@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employees Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Add Employee</h1>
+  <input id="name" placeholder="Name">  
+  <input id="dept" placeholder="Department">
+  <input id="age" type="number" placeholder="Age">
+  <input id="salary" type="number" placeholder="Salary">
+  <button onclick="addEmployee()">Add</button>
+
+  <hr>
+
+  <h1>Delete Employees Over Age</h1>
+  <input id="delAge" type="number" placeholder="Enter age">
+  <button onclick="deleteEmp()">Delete</button>
+
+  <hr>
+
+  <h1>Update Department Name</h1>
+  <input id="oldDept" placeholder="Old Department">
+  <input id="newDept" placeholder="New Department">
+  <button onclick="updateDept()">Update</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
