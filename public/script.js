@@ -1,4 +1,4 @@
-// Add Employee //
+// addEmployees //
 function addEmployee() {
   const data = {
     name: document.getElementById("name").value,
